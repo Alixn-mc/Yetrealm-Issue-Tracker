@@ -14,7 +14,7 @@ Please use this repository to report:
 ## Download
 
 CurseForge: https://www.curseforge.com/minecraft/mc-mods/yetrealm  
-Modrinth: https://modrinth.com/mod/yetrealm
+Modrinth: coming soon
 
 ## Before Reporting a Bug
 
