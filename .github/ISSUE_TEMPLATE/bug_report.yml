@@ -1,7 +1,8 @@
 name: Bug Report
-description: Report a bug, crash, compatibility issue, or performance problem in Yetrealm
+description: Report a bug, crash, compatibility issue, or performance problem in Yetrealm.
 title: "[Bug]: "
 labels: ["bug"]
+
 body:
   - type: markdown
     attributes:
