@@ -1,0 +1,93 @@
+name: Bug Report
+description: Report a bug, crash, compatibility issue, or performance problem in Yetrealm
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug in Yetrealm.
+        Please fill in the information below so the issue can be investigated.
+
+  - type: input
+    id: yetrealm_version
+    attributes:
+      label: Yetrealm version
+      placeholder: "Example: 1.0.0"
+    validations:
+      required: true
+
+  - type: input
+    id: minecraft_version
+    attributes:
+      label: Minecraft version
+      placeholder: "Example: 1.21.1"
+    validations:
+      required: true
+
+  - type: input
+    id: neoforge_version
+    attributes:
+      label: NeoForge version
+      placeholder: "Example: 21.1.x"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      options:
+        - Singleplayer
+        - Dedicated server
+        - LAN world
+    validations:
+      required: true
+
+  - type: textarea
+    id: mod_list
+    attributes:
+      label: Mod list
+      description: Paste your full mod list here.
+      placeholder: "Curios, Apothic Attributes, Placebo, ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the bug clearly.
+      placeholder: "Explain what happened and what you expected to happen."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Tell us how to reproduce the issue.
+      placeholder: |
+        1. Open the world
+        2. Enter ...
+        3. Use ...
+        4. The issue happens
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or crash reports
+      description: Upload latest.log or crash report if available.
+      placeholder: "Drag and drop latest.log or crash report here."
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or videos
+      description: Optional, but useful for worldgen, structures, UI, visual bugs, or combat issues.
+    validations:
+      required: false
